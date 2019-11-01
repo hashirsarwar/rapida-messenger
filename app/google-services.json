@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "133170802247",
+    "firebase_url": "https://groupme-f6bb0.firebaseio.com",
+    "project_id": "groupme-f6bb0",
+    "storage_bucket": "groupme-f6bb0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:133170802247:android:555fb7c67310154b",
+        "android_client_info": {
+          "package_name": "com.example.groupme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "133170802247-m5tisntqjbequcr2ch8c9l3dqvbtqldb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.groupme",
+            "certificate_hash": "2d3a3766f76e7f0457ac0c07b51029ddeb7365ec"
+          }
+        },
+        {
+          "client_id": "133170802247-ob83ofi627598uhh7u0s9979fqpkojar.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.groupme",
+            "certificate_hash": "2c6832d6635efdb3725e823daf4389c379c6e556"
+          }
+        },
+        {
+          "client_id": "133170802247-br43nj85oflq5j586chmmd6r60dpa1ou.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHPsaP3-bNg6AzgHqG9u7MXpkhZSdVEH0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "133170802247-br43nj85oflq5j586chmmd6r60dpa1ou.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

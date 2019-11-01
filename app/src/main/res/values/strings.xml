@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">GroupMe</string>
+    <string name="title_activity_send_location">Map</string>
+    <string name="title_activity_view_location">Map</string>
+</resources>

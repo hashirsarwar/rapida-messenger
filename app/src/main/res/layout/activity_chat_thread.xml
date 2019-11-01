@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChatThread"
+    >
+    <RelativeLayout
+        android:id="@+id/chat_thread_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/chatEnter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/list_of_buttons"
+            android:hint="Write a message"
+            android:inputType="textCapSentences" />
+
+    <!--<android.support.design.widget.TextInputLayout-->
+        <!--android:id="@+id/textInputLayout5"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="30dp"-->
+        <!--android:layout_above="@+id/list_of_buttons"-->
+        <!--&gt;-->
+
+        <!--<android.support.design.widget.TextInputEditText-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:hint="Type here" />-->
+    <!--</android.support.design.widget.TextInputLayout>-->
+
+    <!--<android.support.design.widget.FloatingActionButton-->
+        <!--android:id="@+id/floatingActionButton3"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:clickable="true"-->
+        <!--android:layout_below="@+id/textInputLayout5"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_alignParentEnd="true"-->
+        <!--android:onClick="sendBtn"-->
+        <!--app:srcCompat="@android:drawable/ic_menu_send" />-->
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/list_of_messages"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/chatEnter"
+        />
+    <LinearLayout
+        android:id="@+id/list_of_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:layout_marginBottom="7dp"
+        >
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:onClick="sendLocation"
+            android:backgroundTint="#C7BEBE"
+            android:tint="#3F3B3B"
+            app:borderWidth="0dp"
+            android:src="@android:drawable/ic_dialog_map"
+            app:fabSize="mini" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/voiceBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:src="@android:drawable/presence_audio_away"
+            android:backgroundTint="#C7BEBE"
+            android:tint="#3F3B3B"
+            app:fabSize="mini"
+            app:borderWidth="0dp"/>
+            <!--app:rippleColor="#00797979" />-->
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:onClick="sendPhotoFromGalleryBtn"
+            android:backgroundTint="#C7BEBE"
+            android:tint="#000"
+            app:borderWidth="0dp"
+            android:src="@android:drawable/ic_menu_gallery"
+            app:fabSize="mini" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginEnd="10dp"
+            android:onClick="sendPhotoBtn"
+            android:backgroundTint="#C7BEBE"
+            android:tint="#000"
+            android:src="@android:drawable/ic_menu_camera"
+            app:fabSize="mini"
+            app:borderWidth="0dp"
+            />
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="sendBtn"
+            android:layout_marginRight="10dp"
+            android:layout_marginEnd="10dp"
+            android:backgroundTint="#C7BEBE"
+            android:tint="#000"
+            app:srcCompat="@android:drawable/ic_menu_send"
+            app:fabSize="mini"
+            app:borderWidth="0dp"
+            />
+
+
+    </LinearLayout>
+    </RelativeLayout>
+    <include layout="@layout/dialog_box"/>
+</android.support.constraint.ConstraintLayout>
