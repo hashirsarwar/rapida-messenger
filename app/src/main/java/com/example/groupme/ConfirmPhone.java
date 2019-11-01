@@ -2,10 +2,10 @@ package com.example.groupme;
 
 import android.content.Context;
 import android.content.Intent;
-import android.support.annotation.NonNull;
-import android.support.constraint.ConstraintLayout;
-import android.support.design.widget.TextInputLayout;
-import android.support.v7.app.AppCompatActivity;
+import androidx.annotation.NonNull;
+import androidx.constraintlayout.widget.ConstraintLayout;
+import com.google.android.material.textfield.TextInputLayout;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
@@ -161,7 +161,7 @@ public class ConfirmPhone extends AppCompatActivity {
 
         @Override
         public void onVerificationFailed(FirebaseException e) {
-            Toast.makeText(ConfirmPhone.this, e.getMessage(), Toast.LENGTH_SHORT).show();
+            Toast.makeText(ConfirmPhone.this, e.getMessage(), Toast.LENGTH_LONG).show();
         }
     };
 }
