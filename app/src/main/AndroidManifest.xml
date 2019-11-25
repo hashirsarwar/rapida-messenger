@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.groupme">
+    package="com.rapida.messenger">
 
     <!--
          The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
@@ -42,23 +42,23 @@
             android:value="AIzaSyBlpVEkMh0MkJgM1uTCr9g4dFVO-hENhCM" />
 
         <activity
-            android:name=".ViewLocation"
+            android:name="com.rapida.messenger.ViewLocation"
             android:label="@string/title_activity_view_location"></activity>
         <activity
-            android:name=".SendLocation"
+            android:name="com.rapida.messenger.SendLocation"
             android:label="@string/title_activity_send_location" />
-        <activity android:name=".NewGroup"
+        <activity android:name="com.rapida.messenger.NewGroup"
             android:windowSoftInputMode="adjustPan"
             />
-        <activity android:name=".ConfirmPhone" />
-        <activity android:name=".ChatThread" />
+        <activity android:name="com.rapida.messenger.ConfirmPhone" />
+        <activity android:name="com.rapida.messenger.ChatThread" />
         <activity
-            android:name=".RegisterUser"
-            android:parentActivityName=".StartPage" />
+            android:name="com.rapida.messenger.RegisterUser"
+            android:parentActivityName="com.rapida.messenger.StartPage" />
         <activity
-            android:name=".StartPage"
+            android:name="com.rapida.messenger.StartPage"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
-        <activity android:name=".Home">
+        <activity android:name="com.rapida.messenger.Home">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -19,31 +19,6 @@
             android:hint="Write a message"
             android:inputType="textCapSentences" />
 
-    <!--<android.support.design.widget.TextInputLayout-->
-        <!--android:id="@+id/textInputLayout5"-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="30dp"-->
-        <!--android:layout_above="@+id/list_of_buttons"-->
-        <!--&gt;-->
-
-        <!--<android.support.design.widget.TextInputEditText-->
-            <!--android:layout_width="match_parent"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:hint="Type here" />-->
-    <!--</android.support.design.widget.TextInputLayout>-->
-
-    <!--<android.support.design.widget.FloatingActionButton-->
-        <!--android:id="@+id/floatingActionButton3"-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:clickable="true"-->
-        <!--android:layout_below="@+id/textInputLayout5"-->
-        <!--android:layout_alignParentBottom="true"-->
-        <!--android:layout_alignParentRight="true"-->
-        <!--android:layout_alignParentEnd="true"-->
-        <!--android:onClick="sendBtn"-->
-        <!--app:srcCompat="@android:drawable/ic_menu_send" />-->
-
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/list_of_messages"
         android:layout_width="match_parent"
@@ -89,7 +64,6 @@
             android:tint="#3F3B3B"
             app:fabSize="mini"
             app:borderWidth="0dp"/>
-            <!--app:rippleColor="#00797979" />-->
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:layout_width="wrap_content"

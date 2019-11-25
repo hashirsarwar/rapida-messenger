@@ -1,50 +1,79 @@
 {
   "project_info": {
-    "project_number": "133170802247",
-    "firebase_url": "https://groupme-f6bb0.firebaseio.com",
-    "project_id": "groupme-f6bb0",
-    "storage_bucket": "groupme-f6bb0.appspot.com"
+    "project_number": "710239001591",
+    "firebase_url": "https://rapida-78b7e.firebaseio.com",
+    "project_id": "rapida-78b7e",
+    "storage_bucket": "rapida-78b7e.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:133170802247:android:555fb7c67310154b",
+        "mobilesdk_app_id": "1:710239001591:android:7189aa44e4736355d16cf2",
         "android_client_info": {
           "package_name": "com.example.groupme"
         }
       },
       "oauth_client": [
         {
-          "client_id": "133170802247-m5tisntqjbequcr2ch8c9l3dqvbtqldb.apps.googleusercontent.com",
+          "client_id": "710239001591-9i7oskiujflrk85pj1igvq05kj4qah2u.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.example.groupme",
-            "certificate_hash": "2d3a3766f76e7f0457ac0c07b51029ddeb7365ec"
+            "certificate_hash": "363216f2c6982894dc3e5c57ca4b7a0fb62b32cc"
           }
         },
         {
-          "client_id": "133170802247-ob83ofi627598uhh7u0s9979fqpkojar.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.example.groupme",
-            "certificate_hash": "2c6832d6635efdb3725e823daf4389c379c6e556"
-          }
-        },
-        {
-          "client_id": "133170802247-br43nj85oflq5j586chmmd6r60dpa1ou.apps.googleusercontent.com",
+          "client_id": "710239001591-qf83jbgk2ji7a92hlq44738dhc9burge.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBHPsaP3-bNg6AzgHqG9u7MXpkhZSdVEH0"
+          "current_key": "AIzaSyBWJmXcXAKCOXNUAC4fn_R7I02AdP51byI"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "133170802247-br43nj85oflq5j586chmmd6r60dpa1ou.apps.googleusercontent.com",
+              "client_id": "710239001591-qf83jbgk2ji7a92hlq44738dhc9burge.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:710239001591:android:ced579253faa016fd16cf2",
+        "android_client_info": {
+          "package_name": "com.rapida.messenger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "710239001591-j73us21du7ubut99mlj1cd05nnck91u2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rapida.messenger",
+            "certificate_hash": "363216f2c6982894dc3e5c57ca4b7a0fb62b32cc"
+          }
+        },
+        {
+          "client_id": "710239001591-qf83jbgk2ji7a92hlq44738dhc9burge.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWJmXcXAKCOXNUAC4fn_R7I02AdP51byI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "710239001591-qf83jbgk2ji7a92hlq44738dhc9burge.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
